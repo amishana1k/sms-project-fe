@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "test": "echo \"No tests defined\" && exit 0"
+},
+
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
     "@tailwindcss/vite": "^4.1.11",
